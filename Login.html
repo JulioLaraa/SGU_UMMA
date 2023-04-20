@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesión</title>
+    <script src="validate.js"></script>
     <style>
       footer {
         position: fixed;
@@ -34,17 +38,6 @@
       <a href="#">¿Olvidaste tu contraseña?</a>
       <a href="#">Registrarte</a>
     </footer>
-    <script>
-      function validate() {
-        var email = document.getElementById("email").value;
-        var password = document.getElementById("password").value;
-        if (email == "" || password == "") {
-          alert("Por favor, ingrese su correo y contraseña.");
-        } else {
-          // Aquí se puede agregar código para validar el correo y la contraseña
-          alert("Inicio de sesión exitoso.");
-        }
-      }
-    </script>
+    
   </body>
 </html>
