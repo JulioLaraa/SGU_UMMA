@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesión</title>
     <script src="Login files/validate.js"></script>
+    <link rel="stylesheet" href="Login files/styles.css">
     <style>
       footer {
         position: fixed;
@@ -25,7 +26,7 @@
   <body>
     <h2>Inicio de sesión</h2>
     <h5>Portal Universitario</h5>
-    <form>
+    <form method="POST">
       <label for="email">Correo electrónico:</label>
       <input type="email" id="email" name="email" required>
       <br>
@@ -35,8 +36,8 @@
       <button type="submit" onclick="validate()">Iniciar sesión</button>
     </form>
     <footer>
-      <a href="#">¿Olvidaste tu contraseña?</a>
-      <a href="#">Registrarte</a>
+      <a href="#" title="¿Olvidaste tu contraseña?">¿Olvidaste tu contraseña?</a>
+      <a href="#" title="Registrarte">Registrarte</a>
     </footer>
     
   </body>
