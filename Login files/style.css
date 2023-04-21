@@ -1,0 +1,24 @@
+body{
+    display:flex ;
+    justify-content: center;
+    align-items:center ;
+    min-height: 100vh;
+
+
+
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+  }
+  footer a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+  }
